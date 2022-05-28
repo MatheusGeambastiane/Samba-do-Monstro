@@ -2,7 +2,7 @@ import environ
 
 from monstro.settings.base import *
 
-env = environ.env()
+env = environ.Env()
 
 DEBUG = env.bool("DEBUG", False)
 

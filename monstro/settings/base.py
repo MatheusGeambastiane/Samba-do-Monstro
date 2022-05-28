@@ -73,7 +73,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'monstro.wsgi.application'
-
+#/home/mathe/pessoais/monstro/backend/monstro/monstro/wsgi.py
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
