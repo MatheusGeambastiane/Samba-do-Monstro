@@ -1,3 +1,4 @@
+{%load static%}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,8 +41,9 @@
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center fixed-top ">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
-      <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
+      <i class="bi bi-phone d-flex align-items-center"><span><a style="color: white ;" href="https://api.whatsapp.com/send?phone=557391839414&text=T%C3%B4%20com%20duvida%20sobre%20o%20Samba%20do%20Monstro">55 73 9183-9414</a> / <a style="color: white;" href="https://api.whatsapp.com/send?phone=557192673222&text=T%C3%B4%20com%20duvida%20sobre%20o%20Samba%20do%20Monstro">55 71 9267-3222</a></span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Sábado 4 de junho de 2022</span></i>
+
     </div>
   </section>
 
@@ -50,44 +52,22 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Delicious</a></h1>
+        <h1><a href="/inicial">Samba do <span style="color:#BF3F3F ;">Monstro</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Conheça a Lenda</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Programação</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Entre em contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#book-a-table" class="book-a-table-btn scrollto">Book a table</a>
-
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Confirme sua presença</a>
     </div>
   </header><!-- End Header -->
 
@@ -98,10 +78,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2 s>Faz aquele pix monstro</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li><a href="/inicial">Home</a></li>
+            <li>Pagamento</li>
           </ol>
         </div>
 
@@ -110,9 +90,11 @@
 
     <section class="inner-page">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+        <div class="info-wrap" style="text-align:center ;">
+          <h2>Que bom que você confirmou, agora</h2>
+          <h2>faz aquele pix <span>Monstro</span></h2>
+          <img src='https://chart.googleapis.com/chart?cht=qr&chl=71992673222&chs=180x180&choe=UTF-8&chld=L|2' rel='nofollow' alt='qr code'><a href='https://www.qr-code-generator.com' border='0' style='cursor:default'  rel='nofollow'></a>
+        </div>
       </div>
     </section>
 
@@ -121,17 +103,15 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Delicious</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3>Samba do <span>Monstro</span></h3>
+      <p>Este site foi desenvolvido por <a href="https://www.linkedin.com/in/matheus-geambastiane-/" style="text-decoration: None;">Matheus Geambastiane</a> pode copiar à vontade. link do Github abaixo</p>
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.instagram.com/matheusgeambastiane/?hl=pt-br" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/matheus-geambastiane-/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+        &copy; Copyright <strong></strong>. <span>Monstro</span>All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -146,14 +126,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/django-email-form/validate.js"></script>
+  <link href="{% static '/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/boxicons/css/boxicons.min.css' %} " rel="stylesheet">
+  <link href="{% static '/vendor/glightbox/css/glightbox.min.css' %} " rel="stylesheet">
+  <link href="{% static '/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- Template Main CSS File -->
+  <link href="{% static '//css/style.css' %}" rel="stylesheet">
+
 
 </body>
 

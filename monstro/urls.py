@@ -18,11 +18,12 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from django.urls import path
 
-from core.views import ConvidadosView
+from core.views import ConvidadosView, Sucessview
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inicial/', ConvidadosView.as_view(), name="inicial")
+    path('inicial/', ConvidadosView.as_view(), name="inicial"),
+    path('sucess/', Sucessview.as_view(), name="Página de sucesso" )
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
