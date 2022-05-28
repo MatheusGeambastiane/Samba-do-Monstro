@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'monstro.wsgi.application'
+WSGI_APPLICATION = 'monstro.wsgi.applicatin'
 #/home/mathe/pessoais/monstro/backend/monstro/monstro/wsgi.py
 
 # Database
