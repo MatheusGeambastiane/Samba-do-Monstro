@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-gc-=blb#k)-4f6bpq98-c@)ns2$jt99@xj4+a#yx36^j-y!83i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://sambadomonstro.herokuapp.com/']
 
 
 # Application definition
