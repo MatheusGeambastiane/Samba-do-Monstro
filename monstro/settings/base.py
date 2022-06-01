@@ -133,7 +133,7 @@ STATIC_ROOT = 'static/assets/'
 
 STATICFILES_DIRS = [
 
-    os.path.join(BASE_DIR, 'static/assets/', 'static/assets/')
+    os.path.join(BASE_DIR, 'static/assets/')
 
     ]
 

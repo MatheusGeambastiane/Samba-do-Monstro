@@ -14,6 +14,7 @@ class Convidados(models.Model):
     email = models.EmailField(validators=[validate_email], verbose_name="seu email")
     telefone = models.CharField(max_length=20, verbose_name="Telefone", null=True)
     opcao = models.CharField(max_length=50, verbose_name="opções", choices=CHOICES)
+    pagou = models.BooleanField(verbose_name="Pagou?", help_text="Pagou o filha da puta ou deu uma de Yan?", default=False)
 
     def __str__(self) -> str:
         return self.nome
